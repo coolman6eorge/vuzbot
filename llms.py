@@ -1,6 +1,4 @@
 from config import GROQ_API
-import requests
-import json
 from groq import Groq
 
 models = [
