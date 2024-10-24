@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    t_uid BIGINT NOT NULL,
+    nickname VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+    balance DECIMAL(10, 2) NOT NULL DEFAULT 0.00
+);
